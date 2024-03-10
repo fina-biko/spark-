@@ -1,0 +1,20 @@
+
+pandas
+mlflow==2.2.2
+notebook
+numpy
+scikit-learn
+matplotlib
+#python-bioc
+pyYaml
+tqdm
+ensure
+joblib
+types-pyYaml
+#box
+
+#Flask
+#Flask-Config
+zenml
+-e .
+

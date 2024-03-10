@@ -1,0 +1,12 @@
+setup.py
+SPARKS_project/__init__.py
+SPARKS_project/src/__init__.py
+SPARKS_project/src/pipeline/__init__.py
+SPARKS_project/src/pipeline/data_ingestion.py
+SPARKS_project/src/steps/__init__.py
+SPARKS_project/src/utils/__init__.py
+sparks_project.egg-info/PKG-INFO
+sparks_project.egg-info/SOURCES.txt
+sparks_project.egg-info/dependency_links.txt
+sparks_project.egg-info/requires.txt
+sparks_project.egg-info/top_level.txt

@@ -1,0 +1,4 @@
+#YAML file. Based on the structure  provided, it seems like we have a dictionary with nested dictionaries.''
+data_ingestion :
+  source_url : "C:\\Users\\User\\Downloads\\Iris.csv" #mistake 2:  use a double backslash always
+                                                       #mistake 3:  always make sure they are nested

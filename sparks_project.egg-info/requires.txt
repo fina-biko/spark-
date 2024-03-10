@@ -1,0 +1,12 @@
+pandas
+mlflow==2.2.2
+notebook
+numpy
+scikit-learn
+matplotlib
+pyYaml
+tqdm
+ensure
+joblib
+types-pyYaml
+zenml

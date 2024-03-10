@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: sparks-project
+Version: 0.0.1
+Author: Fina
+Author-email: finarheiner.com
+Requires-Dist: pandas
+Requires-Dist: mlflow==2.2.2
+Requires-Dist: notebook
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: matplotlib
+Requires-Dist: pyYaml
+Requires-Dist: tqdm
+Requires-Dist: ensure
+Requires-Dist: joblib
+Requires-Dist: types-pyYaml
+Requires-Dist: zenml
