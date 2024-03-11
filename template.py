@@ -7,7 +7,7 @@ logging.basicConfig(level=logging.INFO)
     - __init__.py
     - steps/
       - __init__.py
-    - pipeline/
+    - components/
       - __init__.py
       - data_ingestion.py
     - utils/
@@ -26,13 +26,14 @@ structures=[
     f"{SOURCE}/__init__.py",
     f"{SOURCE}/{PROJECT}/__init__.py",
     
-    f"{SOURCE}/{PROJECT}/steps/__init__.py",
+    f"{SOURCE}/{PROJECT}/pipelinesteps/__init__.py",
     
-    f"{SOURCE}/{PROJECT}/pipeline/__init__.py",
-    f"{SOURCE}/{PROJECT}/pipeline/data_ingestion.py",
+    f"{SOURCE}/{PROJECT}/components/__init__.py",
+    f"{SOURCE}/{PROJECT}/components/data_ingestion.py",
     f"{SOURCE}/{PROJECT}/utils/__init__.py",
-    #f"src/{project_name}/pipeline/__init__.py",
+    #f"src/{project_name}/components/__init__.py",
     f"{SOURCE}/{PROJECT}/artifacts/model.json",
+    f"{SOURCE}/{PROJECT}/AllPipelines/__init__.py",
     'main.py',
     'Dockerfile',
     'setup.py',

@@ -1,5 +1,7 @@
 from abc import abstractmethod,ABC
 import pandas as pd
+import yaml
+from pathlib import Path
 import numpy as np
 from typing import Annotated
 from zenml import step, pipeline
@@ -15,14 +17,18 @@ class DataIngestionStrategy(ABC):
     @abstractmethod
     def ingest_data(self,data:pd.DataFrame)->Annotated[pd.DataFrame, "data"]:
         pass
-@step
+
 class Dataingestion(DataIngestionStrategy):
-    def ingest_data(self,data:pd.DataFrame)->Annotated[pd.DataFrame, "data"]:
+    def __init__(self,datapath) :
+        self.path=datapath
+
+    def ingest_data(self)->Annotated[pd.DataFrame, "data"]:
         try:
-            logger.info("data ingested successsfully")
+            
+            data=pd.read_csv(self.path)
             return data
         except Exception as e:
-            logger.info('Could not ingest data')
+            print(f"could not read data from {self.path}   : {e}")
 
                                                       
     

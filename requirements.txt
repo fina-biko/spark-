@@ -12,6 +12,7 @@ ensure
 joblib
 types-pyYaml
 #box
+pyYaml
 
 #Flask
 #Flask-Config
